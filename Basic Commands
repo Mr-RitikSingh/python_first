@@ -1,0 +1,24 @@
+ls      :- list of files & directories at pwd 
+mkdir   :- to create a new empty directory 
+touch   :- to create a new empty file 
+rmdir   :- to remove empty directory 
+rm      :- to remove empty file 
+rm -rf  :- to remove files & dirs forcefully 
+cd      :- to change dirs 
+
+cat file1           :- to create a new file named 'file1' with msg 
+cat > file1         :- to remove old msg & type new msg in 'file1' 
+cat >> file1        :- to add some more msg in 'file1' 
+cat file1 >> file2  :- to move the contant of file1 to file2 
+cat >.file          :- to create hidden file named 'file1' 
+
+cp file1 dir1       :- to copy file1 into dir1 
+cp file1 file2 dir1 :- to copy file1 & file2 into dir1 
+cp file1 file2      :- to copy the contant of file1 into file2 
+cp -r dir1 dir2     :- to copy dir1 into dir2 with contant 
+
+mv file1 file2      :- to move contant of file1 into file2 
+mv file1 dir1       :- to move file1 into dir1 
+mv dir1 dir2        :- to move dir1 into dir2 
+mv file1 .file1     :- to hide file1 
+mv .file1 file1     :- to unhide file1 
